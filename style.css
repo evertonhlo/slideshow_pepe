@@ -1,65 +1,81 @@
  *{
-    margin: 0;
+    margin: 00;
     padding: 0;
+    list-style: none;
  }
   
  body{
-    width: 100vw;
-    height: 100vh;
-    background-color: bisque;
+    width: 100%;
+    height: 100%;
+    background-color: #ff7d00;
     color: black;
     display: flex;
     flex-direction: column;
  }
 
  .cabecalho{
-    width: 100vw;
-    height: 20vh;
+    width: 100%;
+    height:100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #001524;
  }
  .lista{
     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
-       width: 50vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
     justify-content: space-between;
+    align-items: center;
  }
 
  .lista-item{
     flex: row;
+    font-size: 3rem;
+    font-family: sans-serif;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0.7rem 2rem;
+    text-decoration: none;
+    color: #ffecd1;
+    background-color: #001524;
  }
 
  .container-slide{
     display: flex ;
     justify-content: space-between;
-    width: 50vw;
-    height: 75vh;
+    width: 90%;
+    height: 85%;
     background-color: black;
-    margin: 0 auto;
+    margin: 50px;
     border-radius: 30px ;
     box-shadow: 0 30px 40px black ;
-    
-   
-   
+    align-items: center;
+    justify-items: center;
+    position:relative;
+   justify-content: space-between;
+
  }
 
  .container-itens{ 
-     position: absolute;
+    
+    position: absolute;
     display: flex;
-    width: 50vw;
-    height: 75vh;
+    width: 100%;
+    height:100%;
     border-radius: 20px;
     overflow: hidden;
-   
+  
+  
   
  }
 
  .item{
-    width: 50vw;
-    height: 50vh;
+    width:100%;
+    height: 100%;
     transition: all 1s;
  }
  
@@ -69,10 +85,9 @@
  }
 
  .item img{
-     width: 50vw;
-     height: 75vh; 
-     border-radius: 20px;
-    
+     width: 850px;
+     height:600px; 
+     border-radius: 20px; 
     transition: all 1s;
  }
 
@@ -85,15 +100,45 @@
     color: #00000000;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 20px;
+    transition: 1s;
 
  }
 
  .action-button:hover {
      
      color: white;
-     background-color: #ffffff90;
-     border-radius: 10px;
+     background-color: #15616d05;
+     border-radius: 20px;
      cursor: pointer;
      transition: all 1s;
  }
+
+ .lista-item:hover {
+   
+     background-color:#15616d;
+ }
+
+/* 
+// Celular */
+
+/* @media (max-width: 800px)  {
+    body{
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    .container-itens{
+        width: 100%;
+        height: 100%;
+           
+    }
+
+    .item{
+        width: 100%;
+        height: 100%;
+    }
+} */
+    

@@ -43,4 +43,5 @@ const next = () =>{
 document.querySelector('#previous').addEventListener('click', previous);
 document.querySelector('#next').addEventListener('click', next);
 
-  
+
+
