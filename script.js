@@ -10,7 +10,11 @@ const images = [
     {'id':'7', 'url': './img/pepe_007.jpg' },
     {'id':'8', 'url': './img/pepe_008.jpg' },
     {'id':'9', 'url': './img/pepe_009.jpg' },
-  
+    {'id':'10', 'url': './img/pepe_010.jpg' },
+    {'id':'11', 'url': './img/pepe_011.jpg' },
+    {'id':'12', 'url': './img/pepe_012.jpg' },
+    {'id':'13', 'url': './img/pepe_013.jpg' },
+    {'id':'14', 'url': './img/pepe_015.jpg' }
 ];
 
 const containerItens = document.querySelector('#container-itens');
