@@ -23,8 +23,8 @@
  }
 
  .logo{
-    display: flex;
-    justify-self:flex-start;
+    height: 120px;
+    margin-left: 50px;
  }
  .lista{
     display: flex;
