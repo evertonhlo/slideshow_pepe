@@ -162,9 +162,7 @@
            font-family: sans-serif;
            margin-top: 45px;
        }
-
      .item img {
-
          width: 300px;
          height: 145px;
          border-radius: 20px;
@@ -218,9 +216,6 @@
              width: 490px;
              height: 445px;
          }
-
-      
-
          .item img {
 
              width: 490px;
@@ -236,9 +231,6 @@
         width: 690px;
         height: 545px;
     }
-
-
-
     .item img {
 
         width: 690px;
@@ -249,3 +241,39 @@
 
 }
 
+@media (orientation: landscape) {
+    body {
+        flex-direction: column;
+        position: absolute;
+    }
+     .item img {
+
+         width: 650px;
+         height: 500px;
+         border-radius: 20px;
+         transition: all 1s;
+     }
+
+     .cabecalho {
+        
+         height: 0px;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         
+     }
+
+     h1 {
+         color: transparent;
+         font-size: 0rem;
+         font-family: sans-serif;
+         margin-top: 8px;
+         margin-left: 60px;
+
+}
+     .logo {
+         height: 100px;
+         margin-left: 500px;
+        z-index: 1;
+     }
+}
